@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background: #000;
+    }
+    
+    .container{
+        max-width: 1110px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    /* *************************** */
+    
+    .header{
+        background: url(../img/BrawlStars_team-webp.webp) no-repeat center/cover;
+        min-height: 770px;
+    }
+    
+    .header-menu{
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-menu{
+        padding-top: 35px;
+    }
+    
+    .header-menu__ul{
+        display: flex;
+    }
+    
+    .header-menu span{
+        color: gold;
+        font-size: 25px;
+    }
+    
+    .header-menu__ul li a {
+        font-size: 20px;
+        color: gold;
+        font-family: 'Raleway-Light';
+        padding: 41px 11px 30px 14px;
+        transition: 0.5s;
+    }
+    
+    .header-bottom__h1{
+        font-size: 40px;
+        color: gold;
+        margin-top: 167px;
+    }
+    .header-bottom__h3{
+        font-size: 35px;
+        color: gold;
+        margin-top: 22px;
+    }
+    .header-bottom__p{
+     font-size: 20px;
+     color: rgba(255, 217, 0, 0.356);
+     margin-top: 30px;   
+    }
+    .header-mma a{
+        font-size: 25px;
+        color: gold;
+    }
+    .header-mma{
+        background: url(../img/1671531330_kalix-club-p-oboi-na-rabochii-stol-navi-instagram-4.jpg) no-repeat center/cover;
+        min-height: 770px;
+    }
+    
+    .header-menu{
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-menu{
+        padding-top: 35px;
+    }
+
+    .header-bottom__h1-mma{
+        font-size: 40px;
+        color: gold;
+        margin-top: 167px;
+    }
+    .header-bottom__h3-mma{
+        font-size: 35px;
+        color: gold;
+        margin-top: 22px;
+    }
+    .header-bottom__p-mma{
+     font-size: 20px;
+     color: goldenrod;
+     margin-top: 30px;   
+    }
+    .header-cube{
+        background: url(../img/1065469.jpg)no-repeat center/cover;
+    }
+    .header-cube a{
+        font-size: 25px;
+        color: gold
+    }
+    .header-menu span{
+        font-size: 30px;
+    }
+    .header-bottom__h1-cube{
+        font-size: 40px;
+        color: gold;
+        margin-top: 167px;
+    }
+    .header-bottom__h3-cube{
+        font-size: 35px;
+        color: gold;
+        margin-top: 22px;
+    }
+    .header-bottom__p-cube{
+     font-size: 20px;
+     color: goldenrod;
+     margin-top: 30px;   
+    }
+    .header-angelboy{
+        background: url(../img/BrawlStars_team-webp.webp) no-repeat center/cover;
+    }
+    .header-cube a{
+        font-size: 25px;
+        color: gold;
+    }
+    .header-menu span{
+        font-size: 30px;
+    }
+    .header-bottom__h1-angel{
+        font-size: 40px;
+        color: gold;
+        margin-top: 167px;
+    }
+    .header-bottom__h3-angel{
+        font-size: 35px;
+        color: gold;
+        margin-top: 22px;
+    }
+    .header-bottom__p-angel{
+     font-size: 20px;
+     color: goldenrod;
+     margin-top: 70px; 
+     padding-bottom: 70px;  
+    }
+    .row a{
+        font-size: 30px;
+        color: gold
+    }
+    /* ********************* */
+    /* header end */
+    
+    /* ****************** */
+    /* main start */
+    
+    .main__ul{
+        display: flex;
+        margin-top: 53px;
+    }
+    
+    .main__ul li a{
+        color: rgba(255, 217, 0, 0.603);
+        font-size: 20px;
+        margin-right: 45px;
+        font-family: 'Raleway-Bold';
+        transition: 0.5s;
+    }
+    
+    .main__ul li a:hover{
+        color: gold;
+    }
+    
+    .burger-box-pos{
+        position: relative;
+    }
+    
+    .btn{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #dedede;
+        font-size: 24px;
+        background: #6acf17bb;
+        font-family: 'Raleway-BlackItalic';
+        width: 187px;
+        height: 60px;
+        transition: 0.5s
+    }
+    
+    .burger-box__card{
+        display: none;
+    }
+    
+    .btn:hover .burger-box__card{
+        display: block;
+    }
+    
+    .btn:hover .burger-box__price{
+        display: none;
+    }
+    
+    .burger-box-pos:hover .btn{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .burger-box-pos img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .burger-box__h4{
+        color: gold;
+        font-size: 24px;
+        font-family: 'Raleway-Bold';
+        margin-top: 37px;
+        text-transform: uppercase;
+    }
+    
+    .burger-box__p{
+        font-size: 16px;
+        color: gold;
+        font-family: 'Raleway-Bold';
+        margin-top: 15px;
+    }
+    
+    .burger-menu{
+        margin-top: 69px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 31px;
+    }
+
+    
+/* main end */
+/* ********************************************************* */
+
+/* ********************************************************* */
+/* section start */
+.section{
+    background: url(../img/1065469.jpg) no-repeat center/cover;
+}
+
+.section-block__text-h2{
+    font-size: 36px;
+    color: goldenrod;
+    font-family: 'Raleway-Bold';
+    padding-top: 52px;
+    text-align: center;
+}
+.section-block__text-h2::after{
+    content:  "" ;
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: goldenrod;
+    margin: auto;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+.text-box p{
+    font-size: 18px;
+    color: goldenrod;
+    font-family: 'Raleway-Light';
+    margin-bottom: 31px;
+}
+
+.footer-end{
+    width: 1500px;
+    padding: 50px 50px 50px 50px;
+    font-size: 30px;
+    margin: auto; 
+    color:#ffffff ;
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 65px;
+    padding-bottom:66px;
+    background: url(../img/u_60aba9d526c52.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-start{
+    font-size: 30px;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    color: #ffffff;
+}
+
+.footer-cube{
+    
+}
